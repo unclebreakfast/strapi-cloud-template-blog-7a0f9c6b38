@@ -12,18 +12,19 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.53.0",
-    "@strapi/plugin-users-permissions": "5.53.0",
-    "@strapi/strapi": "5.53.0",
+    "@strapi/plugin-cloud": "5.60.0",
+    "@strapi/plugin-users-permissions": "5.60.0",
+    "@strapi/strapi": "5.60.0",
     "better-sqlite3": "11.3.0",
-    "fs-extra": "^10.0.0",
-    "mime-types": "^2.1.27",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "fs-extra": "^10.1.0",
+    "mime-types": "^2.1.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "strapi-5-sitemap-plugin": "^1.0.8",
+    "strapi-plugin-navigation": "latest",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
