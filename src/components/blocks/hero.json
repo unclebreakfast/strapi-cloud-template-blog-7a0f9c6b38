@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Copy": {
+    "copy": {
       "type": "blocks"
     },
-    "Background": {
+    "background": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

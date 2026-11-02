@@ -7,11 +7,11 @@ export interface BlocksHero extends Struct.ComponentSchema {
     icon: 'write';
   };
   attributes: {
-    Background: Schema.Attribute.Media<
+    background: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
-    Copy: Schema.Attribute.Blocks;
-    Title: Schema.Attribute.String;
+    copy: Schema.Attribute.Blocks;
+    title: Schema.Attribute.String;
   };
 }
 

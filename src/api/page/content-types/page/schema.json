@@ -11,19 +11,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
-      "targetField": "Title"
+      "targetField": "title"
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "component": "shared.seo",
       "repeatable": false
     },
-    "Sections": {
+    "sections": {
       "type": "dynamiczone",
       "components": [
         "blocks.hero"
